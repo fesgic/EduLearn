@@ -1,0 +1,2 @@
+# EduLearn
+Its a classroom platform that applies socket programming to interconnect teachers and students in a classroom environment. The teacher creates hotspot and the students join. On the teacher loggin in, the server starts and through the connected hotspot, students can login through as a client. They can then access the database on the teachers machine, answer questions that the teacher has set through the app, and finally the system will grade the students' responses and give back their results
