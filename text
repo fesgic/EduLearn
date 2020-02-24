@@ -1,0 +1,8 @@
+def get_buttonClick():
+    import mysql.connector as mariadb
+    mariadb_connection = mariadb.connect(user='root', password='fg68211h', database='edulearn')
+    self.cursor = mariadb_connection.cursor()
+    self.cursor.execute("INSERT INTO students (surname,first,second,username,regno ) VALUES (?,?,?,?,?)",
+                   (surname, first, second, username, regno))
+    mariadb.commit()
+    mariadb.close()
